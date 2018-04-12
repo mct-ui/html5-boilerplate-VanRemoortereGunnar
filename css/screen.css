@@ -3,12 +3,6 @@ body {
 }
 
 /*
-    Elements: Page
-    ---
-    Default markup for page level elements
-*/
-
-/*
 html-tag inhoud
 Hiermee bepalen we de globale font-size, line-height, font-family en color van ons html
 document. Tenzij het ergens anders in de css overschreven wordt, zijn dit de waarden die
@@ -41,4 +35,87 @@ html {
     background: #E85E00
     color: white;
     text-shadow: none;
+}
+
+/*
+img-tag
+max-width: 100%; zorgt er voor dat elke image nooit breder wordt dan 100% en
+meeschaalt als de viewport kleiner wordt.
+vertical-align: top; zorgt er voor dat images altijd bovenaan worden gealigneerd als ze
+bijvoorbeeld in andere elementen zitten.
+*/
+img {
+    max-width: 100%;
+    vertical-align: top;
+}
+
+
+
+h1 {
+    font-family: "Times New Roman", serif;
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 40px;
+    margin: 0 0 48px;
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4,
+h5,
+h6 {
+
+}
+
+p,
+ol,
+ul,
+dl,
+table,
+address,
+figure {
+
+}
+
+ul,
+ol,
+blockquote {
+
+}
+
+li ul,
+li ol{
+
+}
+
+blockquote {
+
+}
+
+figcaption {
+
+}
+
+hr {
+
+}
+
+a {
+
+}
+
+a:hover,
+a:focus {
+
+}
+
+a:visited,
+a:active {
+
 }
