@@ -1,5 +1,14 @@
 body {
     background: Khaki;
+    /*
+    Dat zorgt er voor dat de body een maximum breedte van 42em krijgt.
+    42em = 672px als de font-size 16px is.
+
+    Stel dat we de global font-size zouden veranderen naar 18px
+    42em * 18px = 765px. Waardoor de relatieve breedte hetzelfde blijft. De leeslengte blijft hetzelfde.
+    */
+    max-width: 42em;
+    margin: 0 auto;
 }
 
 /*
