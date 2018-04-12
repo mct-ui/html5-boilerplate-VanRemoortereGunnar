@@ -128,15 +128,26 @@ hr {
 }
 
 a {
-
+    color: RoyalBlue;
+    transition: all .1s ease-in-out;
 }
+
+/*
+:hover is voor als jer over hovered met de cursor
+:focus is voor als er als de link focus krijgt. Bijvoorbeeld als je door het document tabt.
+*/
 
 a:hover,
 a:focus {
-
+    color: Crimson;
 }
+
+/*
+:visited is voor links die je al bezocht hebt
+:active is voor op het moment dat er op geklikt wordt.
+*/
 
 a:visited,
 a:active {
-
+    color: BlueViolet;
 }
